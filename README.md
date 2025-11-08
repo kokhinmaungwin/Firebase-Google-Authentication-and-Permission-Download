@@ -91,9 +91,9 @@ MIT License
 
 ---
 
-## 👨‍💻 Developed By
+## 👨‍💻 Author
 
-**Designed & Coded by _Khin Maung Win_**  
+**Created by _Khin Maung Win_**  
 🚀 Firebase Secure Download System  
 📅 2025
 
