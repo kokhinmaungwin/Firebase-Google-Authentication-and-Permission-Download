@@ -54,6 +54,27 @@ Document ID = `appId` used in HTML button
 
 ---
 
+## 🔐 Firestore Security Rules Explanation
+
+This project uses Firestore rules to control access:
+
+### ✅ Admins Collection
+Only system admin can write.
+Normal users can only read.
+
+### ✅ Allowed Users Collection
+Only authenticated admins can add users to download list.
+All logged-in users can read (to verify access).
+
+### ✅ Download Links
+All logged-in users can read download links.
+No one can write from client (only Firestore Console).
+
+### ❌ Default
+Everything else is denied.
+
+---
+
 ## 🛠️ Tech Stack
 
 - Firebase Authentication (Google Sign-In)
