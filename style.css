@@ -1,0 +1,102 @@
+/* Buttons */
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.btn-full {
+  width: 280px;
+  max-width: 100%;
+}
+/* User info */
+#userInfo {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #333;
+}
+/* Download link button style */
+.download-link {
+  background-color: #007bff;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Admin panel container */
+.admin-panel {
+  margin-top: 20px;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+/* Input style */
+.input-email {
+  width: 280px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+/* Admin messages */
+.admin-message {
+  margin-top: 15px;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+/* Allowed users list */
+.allowed-users-list {
+  margin-top: 30px;
+  padding: 0;
+  border: none;
+}
+/* Table styling */
+.allowed-users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+.allowed-users-table th, 
+.allowed-users-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.allowed-users-table thead tr {
+  background-color: #e2e6ea;
+}
+/* No users message */
+.no-users-msg {
+  display: none;
+  color: #555;
+  margin-top: 15px;
+}
+/* General message styling */
+#message {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #000;
+}
+
+
+
+
+
+
+
