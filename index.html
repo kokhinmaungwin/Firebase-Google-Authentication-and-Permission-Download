@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Firebase Google Authentication And Permission Download</title>
+</head>
+<body>
+<button class="btn-primary" id="loginBtn">Login with Google</button>
+<button class="btn-primary hidden" id="logoutBtn">Logout</button>
+<div class="hidden" id="userInfo">
+  Logged in as: <span id="userEmail"></span>
+</div>
+  <a class="download-link hidden" data-app-id="ddos_tool_pro" href="#">Download</a>
+  <p id="message"></p>
+<div class="hidden admin-panel" id="adminPanel">
+  <h3>Grant Download Permission (Admin Only)</h3>
+  <input class="input-email" id="userEmailToGrant" type="email" />
+  <button class="btn-primary btn-full" id="grantPermissionBtn">Grant Permission</button>
+  <p class="admin-message" id="adminMessage"></p>
+  <div class="hidden allowed-users-list" id="allowedUsersListContainer">
+    <h3>Allowed Users</h3>
+    <table class="allowed-users-table" id="allowedUsersTable">
+      <thead>
+        <tr>
+          <th>Email</th>
+          <th>Granted By</th>
+          <th>Granted At</th>
+        </tr>
+      </thead>
+      <tbody id="allowedUsersTableBody"></tbody>
+    </table>
+    <p class="no-users-msg" id="noAllowedUsersMessage">No users have been granted download permission yet.</p>
+  </div>
+</div>
+</body>
+</html>
